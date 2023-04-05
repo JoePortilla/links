@@ -13,7 +13,7 @@ st.info('Ingeniero Electrónico. Estudiante MSc. en Educación. Ciclista de bajo
 
 icon_size = 20
 
-# st_button('portafolio', 'https://joeportilla.ml/portfolio/', 'Mira mi portafolio', icon_size)
+st_button('portafolio', 'https://joeportilla.ml/portfolio', 'Mira mi portafolio', icon_size)
 st_button('kaggle', 'https://www.kaggle.com/joeportilla', 'Mis Notebooks en Kaggle', icon_size)
 st_button('github', 'https://github.com/JoePortilla', 'Sigueme en GitHub', icon_size)
 st_button('twitter', 'https://twitter.com/JoePortilla', 'Sigueme en Twitter', icon_size)
