@@ -4,21 +4,17 @@ from PIL import Image
 
 load_css()
 
-st.write("[![Star](https://img.shields.io/github/stars/dataprofessor/links.svg?logo=github&style=social)](https://gitHub.com/dataprofessor/links)")
-
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('dp.png'))
 
-st.header('Chanin Nantasenamat, Ph.D.')
+st.header('Joseph Santiago Portilla, Ing.')
 
-st.info('Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
+st.info('Ingeniero Electrónico. Estudiante MSc. en Educación. Ciclista de bajo rendimiento')
 
 icon_size = 20
 
-st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel', icon_size)
-st_button('youtube', 'https://youtube.com/codingprofessor', 'Coding Professor YouTube channel', icon_size)
-st_button('medium', 'https://data-professor.medium.com/', 'Read my Blogs', icon_size)
-st_button('twitter', 'https://twitter.com/thedataprof/', 'Follow me on Twitter', icon_size)
-st_button('linkedin', 'https://www.linkedin.com/in/chanin-nantasenamat/', 'Follow me on LinkedIn', icon_size)
-st_button('newsletter', 'https://sendfox.com/dataprofessor/', 'Sign up for my Newsletter', icon_size)
-st_button('cup', 'https://www.buymeacoffee.com/dataprofessor/', 'Buy me a Coffee', icon_size)
+st_button('Portafolio', 'https://joeportilla.ml/portfolio/', 'Mira mi portafolio', icon_size)
+st_button('Kaggle', 'https://www.kaggle.com/joeportilla', 'Mis Notebooks en Kaggle', icon_size)
+st_button('GitHub', 'https://github.com/JoePortilla', 'Sigueme en GitHub', icon_size)
+st_button('Twitter', 'https://twitter.com/JoePortilla', 'Sigueme en Twitter', icon_size)
+st_button('LinkedIn', 'https://www.linkedin.com/in/PortillaJoe', 'Sigueme en LinkedIn', icon_size)
